@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage Tutorial</title>
+    <style>
+        body {
+            margin: 100px auto;
+            text-align: center;
+        }
+        
+        #tdl-list,
+        #myULCheck {
+            border: 1px solid #009688;
+            border-radius: 2px;
+            width: 30%;
+            color: #009688;
+            text-align: left;
+            padding: 10px;
+            margin: 20px auto;
+        }
+        
+        div {
+            margin: 20px auto;
+        }
+        
+        .remove {
+            float: right;
+            color: red;
+        }
+        
+        .close,
+        .closeCom {
+            margin: 12px 25px 12px 20px;
+        }
+        
+        .check,
+        .checkCom {
+            margin: 12px 25px 12px 20px;
+        }
+        
+        .close:hover {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="tdl">
+        <div id="tdl-header">
+            <input type="search" id='myInput' placeholder="Enter new task">
+            <button id="add-task">add</button>
+            <button id="search-task">search</button>
+        </div>
+        <div id="tdl-list">
+            <ul id="myUL">
+
+            </ul>
+
+        </div>
+        <ul id="myULCheck">
+
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
